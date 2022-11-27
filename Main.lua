@@ -43,7 +43,7 @@ local errCount = 0
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 local httprequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
 local httpservice = game:GetService('HttpService')
-local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/SpajroTheWolf/Pls-Donate-2/main/ui.lua")()
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/Nuclearpotato69/Pls-Donate-AFK-Script-version-2/main/ui.lua")()
 local win = Flux:Window("PLS DONATE", "by Spajro", Color3.fromRGB(0, 128, 0), Enum.KeyCode.RightShift)
 local function claimGifts()
     pcall(function()
